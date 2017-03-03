@@ -16,7 +16,6 @@ import java.util.Scanner;
  */
 public class OrdenarVector {
     
-  
     public int vector[];
     /**
      */
@@ -30,8 +29,7 @@ public class OrdenarVector {
       vector = new int[longitud];
       for(cont1=0;cont1<vector.length;cont1++){
           System.out.print("Ingrese un Numero: ");
-          vector[cont1] = leer.nextInt();
-          
+          vector[cont1] = leer.nextInt();      
       }
     }
     
@@ -56,8 +54,6 @@ public class OrdenarVector {
         for(int cont3=0;cont3<vector.length;cont3++){
             System.out.println(vector[cont3]);
         }
-        
-        
     }
     
     
